@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="shows.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>SHOWSS</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Artist.html">Artist</a></li>
+            <li><a href="Festival.html">Festival</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="Quem_Somos.html">Quem Somos</a></li>
+            <li style="float: right;"><a href="cadastro.html"><img src="cadastro.png" style="width:20px"></a></li>
+        </ul>
+    </nav>
+    <br>
+    <header>
+        <a href="index.html"><img src="Jaguar_Shows.png" class="media-object  img-responsive img-thumbnail"></a>
+
+    </header>
+
+
+
+    <button class="accordion">Thursday 26 May 2022</button>
+    <div class="panel">
+      <p>Henrique & Juliano</p>
+       
+        <p>Parque de Exposições Fernando Costa, Franca, Brazil</p>
+        <p>Expoagro Franca 2022</p>
+        <img src="huge_avatar.jpg" style= "width:20%">
+       
+       
+       
+    </div>
+    
+    <button class="accordion">Friday 27 May 2022 – Saturday 28 May 2022</button>
+    <div class="panel">
+      <p>Covinh4</p>
+       
+        <p>Verão Fest 2022</p>
+        <p>Salinas, Brazil</p>
+        <img src="" style= "width:20%">
+      
+       
+    </div>
+    
+       
+    <button class="accordion">Friday 27 May 2022</button>
+    <div class="panel">
+      <p>Dennis DJ and Os Barões da Pisadinha</p>
+       
+        <p>Expoagro Franca 2022</p>
+        <p>Parque de Exposições Fernando Costa, Franca, Brazil</p>
+        <img src="" style= "width:20%">
+      
+       
+    </div>
+    
+
+
+    <button class="accordion">Conferencia Unanimes 2022</button>
+    <div class="panel">
+      <p>Felipin</p>
+       
+        <p>Igreja Batista Ebenézer, Brumadinho, Brazil</p>
+        <img src="" style= "width:20%">
+      
+       
+       
+    </div>
+    
+    <button class="accordion">Quarta-feira, 25 de maio de 2022 – segunda-feira, 30 de maio de 2022</button>
+    <div class="panel">
+      <p>Lightning In A Bottle 2022</p>
+       
+        <p>Glass Animals, Kaytranada, Chet Faker, GRiZ, Parra for Cuva, Monolink, CloZee, and Edit</p>
+        <p>Bakersfield, CA, US</p>
+        <img src="" style= "width:20%">
+      
+       
+    </div>
+    
+       
+    <button class="accordion">Hot Luck Festival 2022</button>
+    <div class="panel">
+      <p>Superchunk</p>
+       
+        <p>Austin, TX, US</p>
+        <img src="" style= "width:20%">
+      
+       
+    </div>
+
+    
+    <button class="accordion">Thursday 26 May 2022 – Sunday 29 May 2022</button>
+    <div class="panel">
+      <p>Mindi Abair</p>
+       
+        <p>Jacksonville Jazz Festival 2022</p>
+        <p>Riverfront Plaza, Jacksonville, FL, US</p>
+        <img src="" style= "width:20%">
+      
+       
+       
+    </div>
+    
+    <button class="accordion">Summer Camp Music Festival 2022</button>
+    <div class="panel">
+      <p>The Smashing Pumpkins, Cherub, Umphrey's McGee, STS9, Cory Wong, Maggie Rose, The Werks, and Daily Bread</p>
+       
+        <p>Chillicothe, IL, US</p>
+        <img src="" style= "width:20%">
+      
+       
+    </div>
+    
+       
+    <button class="accordion">Thursday 26 May 2022 – Monday 30 May 2022</button>
+    <div class="panel">
+      <p>Strawberry Music Festical 2022</p>
+       
+        <p>Sara Watkins, The Watkins Family Hour, and Sean Watkins</p>
+        <p>Nevada County Fairgrounds, Grass Valley, CA, US</p>
+        <img src="" style= "width:20%">
+    
+       
+    </div>
+
+
+<style>
+        body{margin: 1;}
+            
+        p{
+            font-family: 'Bellota', cursive;
+            text-align: center;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Lobster', cursive;
+            color: white;
+        }
+        
+        .accordion {
+          background-color: rgba(102, 51, 153, 0.404);
+          color: white;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color:rgba(153, 51, 139, 0.582); 
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: rgba(124, 33, 119, 0.342);
+          overflow: hidden;
+        }
+        
+        
+        /*----------------------------*/
+        
+        .dropbtn {
+          color: black;
+          padding: 20px 20px;
+          border: none;
+          cursor: pointer;
+          font-family:'Anton', sans-serif;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+            
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #bb46a8;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
+          z-index: 1;
+         
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+            
+        }
+        
+        /*--------------------------------*/
+        
+        
+        
+</style>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+</script>
+
+</body>
+
+</html>
