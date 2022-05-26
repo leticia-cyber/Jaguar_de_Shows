@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="shows.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>SHOWSS</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Artist.html">Artist</a></li>
+            <li><a href="Festival.html">Festival</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="Quem_Somos.html">Quem Somos</a></li>
+            <li style="float: right;"><a href="cadastro.html"><img src="cadastro.png" style="width:20px"></a></li>
+        </ul>
+    </nav>
+    <br>
+    <header>
+        <a href="index.html"><img src="Jaguar_Shows.png" class="media-object  img-responsive img-thumbnail"></a>
+
+    </header>
+
+    <div class="w3-container">
+    
+    </div>
+<div style="display: flex; align-items: center; justify-content: center;">
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides w3-animate-top" src="img4.jpg" style="width:130%">
+      <img class="mySlides w3-animate-bottom" src="img6.jpeg" style="width:130%">
+      <img class="mySlides w3-animate-top" src="ROCK-IN-RIO.jpeg" style="width:130%">
+      <img class="mySlides w3-animate-bottom" src="img5.jpg" style="width:130%">
+      <img class="mySlides w3-animate-top" src="ONE-OK-ROCK-4.jpg" style="width:130%">
+      <img class="mySlides w3-animate-bottom" src="summerfest1.png" style="width:130%">
+      <img class="mySlides w3-animate-top" src="GLASTONBURY1.jpg" style="width:130%">
+      <img class="mySlides w3-animate-bottom" src="coachella-1.jpg" style="width:130%">
+      <img class="mySlides w3-animate-top" src="img3.jpg" style="width:130%">
+      <img class="mySlides w3-animate-bottom" src="img1.jpg" style="width:130%">
+    </div>
+</div>
+
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2500);    
+    }
+    </script>
+    
+
+</body>
+
+</html>
